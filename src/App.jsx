@@ -10,7 +10,7 @@ import SearchItems from "./components/searchItem/SearchItems"
 
 const App=()=> {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/swiggy-clone-app">
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/restaurants/:id/:firmName" element={<ItemDetailsPage/>}/>
